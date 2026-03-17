@@ -33,4 +33,4 @@ def app():
     """ ) 
     
 if __name__ == '__main__':
-    start_server(app, port=34345, debug=True)  
+    start_server(app, port=8080, host='0.0.0.0') 
